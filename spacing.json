@@ -1,39 +1,94 @@
 {
-  "unit primitive": {
-    "00": { "value": 0, "type": "number" },
-    "01": { "value": 1, "type": "number" },
-    "02": { "value": 2, "type": "number" },
-    "03": { "value": 4, "type": "number" },
-    "04": { "value": 8, "type": "number" },
-    "05": { "value": 16, "type": "number" },
-    "06": { "value": 24, "type": "number" },
-    "07": { "value": 32, "type": "number" },
-    "08": { "value": 40, "type": "number" }
+  "unit.primitive.00": {
+    "$type": "dimension",
+    "$value": 0
   },
-  "spacing": {
-    "none": { "value": "{00}", "type": "number" },
-    "xxs": { "value": "{02}", "type": "number" },
-    "xs": { "value": "{03}", "type": "number" },
-    "sm": { "value": "{04}", "type": "number" },
-    "md": { "value": "{05}", "type": "number" },
-    "lg": { "value": "{06}", "type": "number" },
-    "xl": { "value": "{07}", "type": "number" },
-    "xxl": { "value": "{08}", "type": "number" }
+  "unit.primitive.01": {
+    "$type": "dimension",
+    "$value": 1
   },
-  "radius": {
-    "none": { "value": "{00}", "type": "number" },
-    "xs": { "value": "{03}", "type": "number" },
-    "sm": { "value": "{04}", "type": "number" },
-    "md": { "value": "{05}", "type": "number" },
-    "lg": { "value": "{06}", "type": "number" },
-    "full": { "value": 999, "type": "number" }
+  "unit.primitive.02": {
+    "$type": "dimension",
+    "$value": 2
   },
-  "$themes": [],
-  "$metadata": {
-    "tokenSetOrder": [
-      "unit primitive",
-      "spacing",
-      "radius"
-    ]
+  "unit.primitive.03": {
+    "$type": "dimension",
+    "$value": 4
+  },
+  "unit.primitive.04": {
+    "$type": "dimension",
+    "$value": 8
+  },
+  "unit.primitive.05": {
+    "$type": "dimension",
+    "$value": 16
+  },
+  "unit.primitive.06": {
+    "$type": "dimension",
+    "$value": 24
+  },
+  "unit.primitive.07": {
+    "$type": "dimension",
+    "$value": 32
+  },
+  "unit.primitive.08": {
+    "$type": "dimension",
+    "$value": 40
+  },
+  "spacing.none": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.00}"
+  },
+  "spacing.xxs": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.02}"
+  },
+  "spacing.xs": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.03}"
+  },
+  "spacing.sm": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.04}"
+  },
+  "spacing.md": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.05}"
+  },
+  "spacing.lg": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.06}"
+  },
+  "spacing.xl": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.07}"
+  },
+  "spacing.xxl": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.08}"
+  },
+  "radius.none": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.00}"
+  },
+  "radius.xs": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.03}"
+  },
+  "radius.sm": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.04}"
+  },
+  "radius.md": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.05}"
+  },
+  "radius.lg": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.06}"
+  },
+  "radius.full": {
+    "$type": "dimension",
+    "$value": 999
   }
 }
