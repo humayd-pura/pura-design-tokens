@@ -1,0 +1,39 @@
+{
+  "unit primitive": {
+    "00": { "value": 0, "type": "number" },
+    "01": { "value": 1, "type": "number" },
+    "02": { "value": 2, "type": "number" },
+    "03": { "value": 4, "type": "number" },
+    "04": { "value": 8, "type": "number" },
+    "05": { "value": 16, "type": "number" },
+    "06": { "value": 24, "type": "number" },
+    "07": { "value": 32, "type": "number" },
+    "08": { "value": 40, "type": "number" }
+  },
+  "spacing": {
+    "none": { "value": "{00}", "type": "number" },
+    "xxs": { "value": "{02}", "type": "number" },
+    "xs": { "value": "{03}", "type": "number" },
+    "sm": { "value": "{04}", "type": "number" },
+    "md": { "value": "{05}", "type": "number" },
+    "lg": { "value": "{06}", "type": "number" },
+    "xl": { "value": "{07}", "type": "number" },
+    "xxl": { "value": "{08}", "type": "number" }
+  },
+  "radius": {
+    "none": { "value": "{00}", "type": "number" },
+    "xs": { "value": "{03}", "type": "number" },
+    "sm": { "value": "{04}", "type": "number" },
+    "md": { "value": "{05}", "type": "number" },
+    "lg": { "value": "{06}", "type": "number" },
+    "full": { "value": 999, "type": "number" }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "unit primitive",
+      "spacing",
+      "radius"
+    ]
+  }
+}
