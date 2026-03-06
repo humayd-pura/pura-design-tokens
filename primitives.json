@@ -275,18 +275,6 @@
     "$type": "dimension",
     "$value": 40
   },
-  "text.primitive.type.ramp.10": {
-    "$type": "dimension",
-    "$value": 48
-  },
-  "text.primitive.type.ramp.11": {
-    "$type": "dimension",
-    "$value": 56
-  },
-  "text.primitive.type.ramp.12": {
-    "$type": "dimension",
-    "$value": 64
-  },
   "text.primitive.type.ramp.01": {
     "$type": "dimension",
     "$value": 12
@@ -323,13 +311,42 @@
     "$type": "dimension",
     "$value": 40
   },
-  "text.primitive.font.family.font-default": {
+  "text.primitive.type.ramp.10": {
+    "$type": "dimension",
+    "$value": 48
+  },
+  "text.primitive.type.ramp.11": {
+    "$type": "dimension",
+    "$value": 56
+  },
+  "text.primitive.type.ramp.12": {
+    "$type": "dimension",
+    "$value": 64
+  },
+   "text.primitive.font.family.font-default": {
     "$type": "fontFamily",
-    "$value": "Greycliff CF"
+    "$value": [
+      "Greycliff CF",
+      "Noto Sans",
+      "Noto Sans Arabic",
+      "system-ui",
+      "-apple-system",
+      "Segoe UI",
+      "Arial",
+      "sans-serif"
+    ]
   },
   "text.primitive.font.family.font-secondary": {
     "$type": "fontFamily",
-    "$value": "Noto Sans"
+    "$value": [
+      "Noto Sans",
+      "Noto Sans Arabic",
+      "system-ui",
+      "-apple-system",
+      "Segoe UI",
+      "Arial",
+      "sans-serif"
+    ]
   },
   "text.primitive.font.weight.weight-regular": {
     "$type": "fontWeight",
@@ -485,7 +502,7 @@
   },
   "text.display.line-height-small": {
     "$type": "dimension",
-    "$value": "{text.primitive.line.height.line-height-900}"
+    "$value": "{text.primitive.line.height.line-height-700}"
   },
   "text.display.letter-spacing-small": {
     "$type": "dimension",
@@ -497,7 +514,7 @@
   },
   "text.heading.line-height-large": {
     "$type": "dimension",
-    "$value": "{text.primitive.line.height.line-height-900}"
+    "$value": "{text.primitive.line.height.line-height-700}"
   },
   "text.heading.letter-spacing-large": {
     "$type": "dimension",
@@ -509,7 +526,7 @@
   },
   "text.heading.line-height-medium": {
     "$type": "dimension",
-    "$value": "{text.primitive.line.height.line-height-700}"
+    "$value": "{text.primitive.line.height.line-height-500}"
   },
   "text.heading.letter-spacing-medium": {
     "$type": "dimension",
@@ -521,7 +538,7 @@
   },
   "text.heading.line-height-small": {
     "$type": "dimension",
-    "$value": "{text.primitive.line.height.line-height-600}"
+    "$value": "{text.primitive.line.height.line-height-400}"
   },
   "text.heading.letter-spacing-small": {
     "$type": "dimension",
@@ -533,7 +550,7 @@
   },
   "text.heading.line-height-xsmall": {
     "$type": "dimension",
-    "$value": "{text.primitive.line.height.line-height-600}"
+    "$value": "{text.primitive.line.height.line-height-300}"
   },
   "text.heading.letter-spacing-xsmall": {
     "$type": "dimension",
@@ -545,7 +562,7 @@
   },
   "text.body.line-height-large": {
     "$type": "dimension",
-    "$value": "{text.primitive.line.height.line-height-600}"
+    "$value": "{text.primitive.line.height.line-height-400}"
   },
   "text.body.letter-spacing-large": {
     "$type": "dimension",
@@ -557,7 +574,7 @@
   },
   "text.body.line-height-medium": {
     "$type": "dimension",
-    "$value": "{text.primitive.line.height.line-height-500}"
+    "$value": "{text.primitive.line.height.line-height-300}"
   },
   "text.body.letter-spacing-medium": {
     "$type": "dimension",
@@ -569,7 +586,7 @@
   },
   "text.body.line-height-small": {
     "$type": "dimension",
-    "$value": "{text.primitive.line.height.line-height-400}"
+    "$value": "{text.primitive.line.height.line-height-200}"
   },
   "text.body.letter-spacing-small": {
     "$type": "dimension",
