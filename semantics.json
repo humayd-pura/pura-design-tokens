@@ -41,11 +41,11 @@
   },
   "Light.surface.brand.tertiary": {
     "$type": "color",
-    "$value": "{color.primitive.mist.blue.500}"
+    "$value": "{color.primitive.mist.blue.600}"
   },
   "Light.surface.brand.tertiary-pressed": {
     "$type": "color",
-    "$value": "{color.primitive.mist.blue.600}"
+    "$value": "{color.primitive.mist.blue.700}"
   },
   "Light.surface.brand.inverse": {
     "$type": "color",
@@ -165,7 +165,7 @@
   },
   "Light.health.neutral.soft": {
     "$type": "color",
-    "$value": "{color.primitive.warm.sand.300}"
+    "$value": "{color.primitive.warm.sand.400}"
   },
   "Light.health.neutral.subtle": {
     "$type": "color",
@@ -251,6 +251,42 @@
     "$type": "color",
     "$value": "{color.primitive.warm.sand.100}"
   },
+  "Light.content.default.muted": {
+    "$type": "color",
+    "$value": "{color.primitive.neutral.400}"
+  },
+  "Light.content.default.inverse-secondary": {
+    "$type": "color",
+    "$value": "{color.primitive.neutral.400}"
+  },
+  "Light.surface.brand.subtle": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.200}"
+  },
+  "Light.surface.negative.secondary": {
+    "$type": "color",
+    "$value": "{color.primitive.rose.clay.700}"
+  },
+  "Light.surface.negative.default": {
+    "$type": "color",
+    "$value": "{color.primitive.rose.clay.800}"
+  },
+  "Light.content.negative.strong": {
+    "$type": "color",
+    "$value": "{color.primitive.rose.clay.900}"
+  },
+  "Light.surface.positive.strong": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.800}"
+  },
+  "Light.content.positive.strong": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.800}"
+  },
+  "Light.border.default.inverse": {
+    "$type": "color",
+    "$value": "{color.primitive.white.1000}"
+  },
   "spacing.none": {
     "$type": "dimension",
     "$value": "{unit.primitive.00}"
@@ -283,6 +319,14 @@
     "$type": "dimension",
     "$value": "{unit.primitive.08}"
   },
+  "spacing.clearance-bottom": {
+    "$type": "dimension",
+    "$value": 50
+  },
+  "spacing.clearance-top": {
+    "$type": "dimension",
+    "$value": 78
+  },
   "radius.none": {
     "$type": "dimension",
     "$value": "{unit.primitive.00}"
@@ -310,5 +354,9 @@
   "border.weight.default": {
     "$type": "dimension",
     "$value": "{unit.primitive.01}"
+  },
+  "border.weight.strong": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.02}"
   }
 }
