@@ -228,5 +228,37 @@
         { "color": "{color.primitive.sage.600}", "position": 1 }
       ]
     }
+  },
+  "blur/overlay": {
+    "$type": "blur",
+    "$description": "Reserved for blur on overlay.",
+    "$value": {
+      "type": "background",
+      "radius": 20
+    }
+  },
+  "blur/ai-surface": {
+    "$type": "blur",
+    "$description": "Soft uniform blur. Used on PuraAgent containers such as PuraAgent Bar, PuraAgent Input.",
+    "$value": {
+      "type": "background",
+      "radius": 10
+    }
+  },
+  "blur/ai-footer-backdrop": {
+    "$type": "blur",
+    "$description": "Heavy backdrop blur for AI footer.",
+    "$value": {
+      "type": "background",
+      "radius": 60
+    }
+  },
+  "blur/ai-header-backdrop": {
+    "$type": "blur",
+    "$description": "Backdrop blur for AI header.",
+    "$value": {
+      "type": "background",
+      "radius": 0
+    }
   }
 }
