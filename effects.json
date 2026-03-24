@@ -234,6 +234,7 @@
     "$description": "Reserved for blur on overlay.",
     "$value": {
       "type": "background",
+      "blurType": "uniform",
       "radius": 20
     }
   },
@@ -242,23 +243,32 @@
     "$description": "Soft uniform blur. Used on PuraAgent containers such as PuraAgent Bar, PuraAgent Input.",
     "$value": {
       "type": "background",
+      "blurType": "uniform",
       "radius": 10
     }
   },
   "blur/ai-footer-backdrop": {
     "$type": "blur",
-    "$description": "Heavy backdrop blur for AI footer.",
+    "$description": "Progressive backdrop blur for AI footer. Fades from no blur at the top to full blur at the bottom.",
     "$value": {
       "type": "background",
-      "radius": 60
+      "blurType": "progressive",
+      "startRadius": 0,
+      "endRadius": 60,
+      "startOffset": { "x": 0.5, "y": 0 },
+      "endOffset": { "x": 0.5, "y": 1 }
     }
   },
   "blur/ai-header-backdrop": {
     "$type": "blur",
-    "$description": "Backdrop blur for AI header.",
+    "$description": "Progressive backdrop blur for AI header. Fades from full blur at the top to no blur at the bottom.",
     "$value": {
       "type": "background",
-      "radius": 0
+      "blurType": "progressive",
+      "startRadius": 60,
+      "endRadius": 0,
+      "startOffset": { "x": 0.5, "y": 0 },
+      "endOffset": { "x": 0.5, "y": 1 }
     }
   }
 }
