@@ -7,11 +7,11 @@
       "angle": 270,
       "stops": [
         { "color": "{color.primitive.warm.sand.100}", "opacity": 0, "position": 0 },
-        { "color": "{color.primitive.warm.sand.100}", "position": 1 }
+        { "color": "{Light.ai.default.secondary-subtle}", "position": 1 }
       ]
     }
   },
-  "gradient/header.bg": {
+  "gradient/header.backdrop": {
     "$type": "gradient",
     "$description": "Gradient reserved for header background.",
     "$value": {
@@ -23,7 +23,19 @@
       ]
     }
   },
-  "gradient/footer.bg": {
+  "gradient/header.backdrop.strong": {
+    "$type": "gradient",
+    "$description": "Strong header background gradient.",
+    "$value": {
+      "type": "linear",
+      "angle": 90,
+      "stops": [
+        { "color": "{color.primitive.warm.sand.100}", "opacity": 0, "position": 0 },
+        { "color": "{color.primitive.warm.sand.100}", "position": 0.5 }
+      ]
+    }
+  },
+  "gradient/footer.backdrop": {
     "$type": "gradient",
     "$description": "Gradient reserved for footer background.",
     "$value": {
@@ -35,7 +47,7 @@
       ]
     }
   },
-  "gradient/chat.bg": {
+  "gradient/ai.chat.bg": {
     "$type": "gradient",
     "$description": "Gradient reserved for AI chat background.",
     "$value": {
@@ -53,8 +65,8 @@
       "type": "linear",
       "angle": 270,
       "stops": [
-        { "color": "{color.primitive.warm.sand.600}", "position": 0.05 },
-        { "color": "{color.primitive.rose.clay.700}", "position": 0.54 }
+        { "color": "{Light.ai.default.secondary-soft}", "position": 0.05 },
+        { "color": "{Light.ai.default.medium}", "position": 0.54 }
       ]
     }
   },
@@ -82,6 +94,42 @@
       ]
     }
   },
+  "gradient/ai.abovekeyboard.backdrop": {
+    "$type": "gradient",
+    "$description": "Gradient reserved for above-keyboard backdrop in AI context.",
+    "$value": {
+      "type": "linear",
+      "angle": 270,
+      "stops": [
+        { "color": "{color.primitive.warm.sand.100}", "opacity": 0, "position": 0 },
+        { "color": "{color.primitive.warm.sand.100}", "position": 1 }
+      ]
+    }
+  },
+  "gradient/ai.footer.backdrop.tall": {
+    "$type": "gradient",
+    "$description": "Tall footer backdrop gradient for AI context.",
+    "$value": {
+      "type": "linear",
+      "angle": 270,
+      "stops": [
+        { "color": "{color.primitive.warm.sand.100}", "opacity": 0, "position": 0 },
+        { "color": "{color.primitive.warm.sand.100}", "position": 0.5 },
+        { "color": "{color.primitive.rose.clay.300}", "position": 1 }
+      ]
+    }
+  },
+  "gradient/ai.compact.halo": {
+    "$type": "gradient",
+    "$description": "Radial halo gradient for compact AI surface.",
+    "$value": {
+      "type": "radial",
+      "stops": [
+        { "color": "{Light.ai.default.secondary-subtle}", "position": 0.2 },
+        { "color": "{Light.ai.default.secondary-subtle}", "opacity": 0, "position": 1 }
+      ]
+    }
+  },
   "gradient/health.linechart.positive": {
     "$type": "gradient",
     "$description": "Gradient reserved for positive health status dataline.",
@@ -89,9 +137,9 @@
       "type": "linear",
       "angle": 189,
       "stops": [
-        { "color": "{color.primitive.mist.blue.500}", "position": 0 },
-        { "color": "{color.primitive.mist.blue.300}", "position": 0.22 },
-        { "color": "{color.primitive.mist.blue.100}", "position": 1 }
+        { "color": "{Light.health.positive.medium}", "position": 0 },
+        { "color": "{Light.health.positive.soft}", "position": 0.22 },
+        { "color": "{Light.health.positive.subtle}", "position": 1 }
       ]
     }
   },
@@ -102,9 +150,9 @@
       "type": "linear",
       "angle": 188,
       "stops": [
-        { "color": "{color.primitive.rose.clay.700}", "position": 0 },
-        { "color": "{color.primitive.rose.clay.500}", "position": 0.13 },
-        { "color": "{color.primitive.rose.clay.100}", "position": 1 }
+        { "color": "{Light.health.negative.medium}", "position": 0 },
+        { "color": "{Light.health.negative.soft}", "position": 0.13 },
+        { "color": "{Light.health.negative.subtle}", "position": 1 }
       ]
     }
   },
@@ -115,9 +163,9 @@
       "type": "linear",
       "angle": 188,
       "stops": [
-        { "color": "{color.primitive.warm.sand.700}", "position": 0 },
-        { "color": "{color.primitive.warm.sand.400}", "position": 0.13 },
-        { "color": "{color.primitive.warm.sand.100}", "position": 1 }
+        { "color": "{Light.health.neutral.medium}", "position": 0 },
+        { "color": "{Light.health.neutral.soft}", "position": 0.13 },
+        { "color": "{Light.health.neutral.subtle}", "position": 1 }
       ]
     }
   },
@@ -140,8 +188,8 @@
       "type": "linear",
       "angle": 0,
       "stops": [
-        { "color": "{color.primitive.mist.blue.800}", "position": 0 },
-        { "color": "{color.primitive.mist.blue.500}", "position": 1 }
+        { "color": "{Light.surface.positive.strong}", "position": 0 },
+        { "color": "{Light.content.positive.secondary}", "position": 1 }
       ]
     }
   },
@@ -152,8 +200,8 @@
       "type": "linear",
       "angle": 0,
       "stops": [
-        { "color": "{color.primitive.rose.clay.400}", "position": 0 },
-        { "color": "{color.primitive.rose.clay.900}", "position": 1 }
+        { "color": "{Light.surface.negative.tertiary}", "position": 0 },
+        { "color": "{Light.content.negative.strong}", "position": 1 }
       ]
     }
   },
@@ -164,8 +212,20 @@
       "type": "linear",
       "angle": 0,
       "stops": [
+        { "color": "{Light.surface.default.secondary}", "position": 0 },
+        { "color": "{Light.health.neutral.medium}", "position": 1 }
+      ]
+    }
+  },
+  "gradient/progress-tracker.track.stroke": {
+    "$type": "gradient",
+    "$description": "Gradient reserved for ProgressTracker's track stroke color.",
+    "$value": {
+      "type": "linear",
+      "angle": 0,
+      "stops": [
         { "color": "{color.primitive.sage.100}", "position": 0 },
-        { "color": "{color.primitive.warm.sand.700}", "position": 1 }
+        { "color": "{color.primitive.sage.600}", "position": 1 }
       ]
     }
   }

@@ -118,5 +118,49 @@
   "component.pura-agent.icon-default-xs": {
     "$type": "color",
     "$value": "{Light.ai.default.medium}"
+  },
+  "component.icon.size-xsmall": {
+    "$type": "dimension",
+    "$value": 12
+  },
+  "component.badge.surface-default": {
+    "$type": "color",
+    "$value": "{color.primitive.sage.200}"
+  },
+  "component.badge.surface-strong": {
+    "$type": "color",
+    "$value": "{color.primitive.sage.300}"
+  },
+  "component.badge.surface-extra-strong": {
+    "$type": "color",
+    "$value": "{color.primitive.sage.400}"
+  },
+  "component.star-rating-input.surface-unselected": {
+    "$type": "color",
+    "$value": "{color.primitive.neutral.300}"
+  },
+  "component.star-rating-input.surface-selected": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.400}"
+  },
+  "component.card.padding-small": {
+    "$type": "dimension",
+    "$value": "{spacing.md}"
+  },
+  "component.card.padding-medium": {
+    "$type": "dimension",
+    "$value": "{spacing.lg}"
+  },
+  "component.sheet.padding-small": {
+    "$type": "dimension",
+    "$value": "{spacing.lg}"
+  },
+  "component.sheet.padding-medium": {
+    "$type": "dimension",
+    "$value": "{spacing.xl}"
+  },
+  "component.attachment.surface-control": {
+    "$type": "color",
+    "$value": "{color.primitive.black.300}"
   }
 }
