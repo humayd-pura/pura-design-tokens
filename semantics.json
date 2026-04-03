@@ -275,7 +275,7 @@
     "$type": "color",
     "$value": "{color.primitive.rose.clay.800}"
   },
-  "Light.health.negative.light": {
+  "Light.health.negative.soft": {
     "$type": "color",
     "$value": "{color.primitive.rose.clay.600}"
   },
