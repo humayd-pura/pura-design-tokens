@@ -1,4 +1,28 @@
 {
+  "shadow/card.floating": {
+    "$type": "shadow",
+    "$description": "Floating drop shadow for cards and elevated surfaces.",
+    "$value": {
+      "type": "dropShadow",
+      "x": 0,
+      "y": 9,
+      "blur": 20.8,
+      "spread": 0,
+      "color": "#00000040"
+    }
+  },
+  "gradient/fade.bottom": {
+    "$type": "gradient",
+    "$description": "White fade from transparent at top to opaque at bottom.",
+    "$value": {
+      "type": "linear",
+      "angle": 270,
+      "stops": [
+        { "color": "{color.primitive.white.1000}", "opacity": 0, "position": 0 },
+        { "color": "{color.primitive.white.1000}", "position": 1 }
+      ]
+    }
+  },
   "gradient/home.bg": {
     "$type": "gradient",
     "$description": "Gradient reserved for home screen background.",
@@ -7,7 +31,7 @@
       "angle": 270,
       "stops": [
         { "color": "{color.primitive.warm.sand.100}", "opacity": 0, "position": 0 },
-        { "color": "{Light.ai.default.secondary-subtle}", "position": 1 }
+        { "color": "{color.primitive.warm.sand.100}", "position": 1 }
       ]
     }
   },
@@ -43,7 +67,7 @@
       "angle": 270,
       "stops": [
         { "color": "{color.primitive.warm.sand.100}", "opacity": 0, "position": 0 },
-        { "color": "{color.primitive.warm.sand.100}", "position": 0.5 }
+        { "color": "{color.primitive.warm.sand.100}", "position": 1 }
       ]
     }
   },
@@ -58,6 +82,18 @@
       ]
     }
   },
+  "gradient/ai.callout.bg": {
+    "$type": "gradient",
+    "$description": "Gradient reserved for AI callout background.",
+    "$value": {
+      "type": "linear",
+      "angle": 270,
+      "stops": [
+        { "color": "{color.primitive.warm.sand.100}", "position": 0.2 },
+        { "color": "{color.primitive.rose.clay.300}", "position": 1 }
+      ]
+    }
+  },
   "gradient/ai.icon.surface": {
     "$type": "gradient",
     "$description": "Gradient reserved for AI assistant symbol.",
@@ -65,12 +101,12 @@
       "type": "linear",
       "angle": 270,
       "stops": [
-        { "color": "{Light.ai.default.secondary-soft}", "position": 0.05 },
-        { "color": "{Light.ai.default.medium}", "position": 0.54 }
+        { "color": "{color.primitive.warm.sand.600}", "position": 0.05 },
+        { "color": "{color.primitive.rose.clay.700}", "position": 0.54 }
       ]
     }
   },
-  "gradient/ai-icon-surface-inverse": {
+  "gradient/ai.icon.surface.inverse": {
     "$type": "gradient",
     "$description": "Inverse gradient for AI assistant symbol.",
     "$value": {
@@ -82,15 +118,14 @@
       ]
     }
   },
-  "gradient/ai.callout.bg": {
+  "gradient/ai.compact.halo": {
     "$type": "gradient",
-    "$description": "Gradient reserved for AI callout background.",
+    "$description": "Radial halo gradient for compact AI surface.",
     "$value": {
-      "type": "linear",
-      "angle": 270,
+      "type": "radial",
       "stops": [
         { "color": "{color.primitive.warm.sand.100}", "position": 0.2 },
-        { "color": "{color.primitive.rose.clay.300}", "position": 1 }
+        { "color": "{color.primitive.warm.sand.100}", "opacity": 0, "position": 1 }
       ]
     }
   },
@@ -119,17 +154,6 @@
       ]
     }
   },
-  "gradient/ai.compact.halo": {
-    "$type": "gradient",
-    "$description": "Radial halo gradient for compact AI surface.",
-    "$value": {
-      "type": "radial",
-      "stops": [
-        { "color": "{Light.ai.default.secondary-subtle}", "position": 0.2 },
-        { "color": "{Light.ai.default.secondary-subtle}", "opacity": 0, "position": 1 }
-      ]
-    }
-  },
   "gradient/health.linechart.positive": {
     "$type": "gradient",
     "$description": "Gradient reserved for positive health status dataline.",
@@ -137,9 +161,9 @@
       "type": "linear",
       "angle": 189,
       "stops": [
-        { "color": "{Light.health.positive.medium}", "position": 0 },
-        { "color": "{Light.health.positive.soft}", "position": 0.22 },
-        { "color": "{Light.health.positive.subtle}", "position": 1 }
+        { "color": "{color.primitive.mist.blue.500}", "position": 0 },
+        { "color": "{color.primitive.mist.blue.300}", "position": 0.22 },
+        { "color": "{color.primitive.mist.blue.100}", "position": 1 }
       ]
     }
   },
@@ -150,9 +174,9 @@
       "type": "linear",
       "angle": 188,
       "stops": [
-        { "color": "{Light.health.negative.medium}", "position": 0 },
-        { "color": "{Light.health.negative.soft}", "position": 0.13 },
-        { "color": "{Light.health.negative.subtle}", "position": 1 }
+        { "color": "{color.primitive.rose.clay.700}", "position": 0 },
+        { "color": "{color.primitive.rose.clay.500}", "position": 0.13 },
+        { "color": "{color.primitive.rose.clay.100}", "position": 1 }
       ]
     }
   },
@@ -163,9 +187,9 @@
       "type": "linear",
       "angle": 188,
       "stops": [
-        { "color": "{Light.health.neutral.medium}", "position": 0 },
-        { "color": "{Light.health.neutral.soft}", "position": 0.13 },
-        { "color": "{Light.health.neutral.subtle}", "position": 1 }
+        { "color": "{color.primitive.warm.sand.700}", "position": 0 },
+        { "color": "{color.primitive.warm.sand.400}", "position": 0.13 },
+        { "color": "{color.primitive.warm.sand.100}", "position": 1 }
       ]
     }
   },
@@ -188,8 +212,8 @@
       "type": "linear",
       "angle": 0,
       "stops": [
-        { "color": "{Light.surface.positive.strong}", "position": 0 },
-        { "color": "{Light.content.positive.secondary}", "position": 1 }
+        { "color": "{color.primitive.mist.blue.800}", "position": 0 },
+        { "color": "{color.primitive.mist.blue.500}", "position": 1 }
       ]
     }
   },
@@ -200,8 +224,8 @@
       "type": "linear",
       "angle": 0,
       "stops": [
-        { "color": "{Light.surface.negative.tertiary}", "position": 0 },
-        { "color": "{Light.content.negative.strong}", "position": 1 }
+        { "color": "{color.primitive.rose.clay.400}", "position": 0 },
+        { "color": "{color.primitive.rose.clay.900}", "position": 1 }
       ]
     }
   },
@@ -212,12 +236,12 @@
       "type": "linear",
       "angle": 0,
       "stops": [
-        { "color": "{Light.surface.default.secondary}", "position": 0 },
-        { "color": "{Light.health.neutral.medium}", "position": 1 }
+        { "color": "{color.primitive.sage.100}", "position": 0 },
+        { "color": "{color.primitive.warm.sand.700}", "position": 1 }
       ]
     }
   },
-  "gradient/progress-tracker.track.stroke": {
+  "gradient/progresstracker.track.stroke": {
     "$type": "gradient",
     "$description": "Gradient reserved for ProgressTracker's track stroke color.",
     "$value": {
@@ -226,6 +250,42 @@
       "stops": [
         { "color": "{color.primitive.sage.100}", "position": 0 },
         { "color": "{color.primitive.sage.600}", "position": 1 }
+      ]
+    }
+  },
+  "gradient/copybutton-stroke": {
+    "$type": "gradient",
+    "$description": "Stroke gradient for the Copy Button component.",
+    "$value": {
+      "type": "linear",
+      "angle": 135,
+      "stops": [
+        { "color": "{color.primitive.white.1000}", "opacity": 0.5, "position": 0 },
+        { "color": "{color.primitive.neutral.600}", "position": 1 }
+      ]
+    }
+  },
+  "gradient/fitcoincard": {
+    "$type": "gradient",
+    "$description": "Background gradient for the Fitcoin card.",
+    "$value": {
+      "type": "linear",
+      "angle": 270,
+      "stops": [
+        { "color": "{color.primitive.mist.blue.200}", "position": 0 },
+        { "color": "{color.primitive.sage.100}", "position": 0.93 }
+      ]
+    }
+  },
+  "gradient/rewardscard.stroke": {
+    "$type": "gradient",
+    "$description": "Stroke gradient for the Rewards card.",
+    "$value": {
+      "type": "linear",
+      "angle": 45,
+      "stops": [
+        { "color": "{color.primitive.white.1000}", "opacity": 0.51, "position": 0 },
+        { "color": "{color.primitive.white.1000}", "opacity": 0, "position": 1 }
       ]
     }
   },
@@ -238,7 +298,7 @@
       "radius": 20
     }
   },
-  "blur/ai-surface": {
+  "blur/ai.surface": {
     "$type": "blur",
     "$description": "Soft uniform blur. Used on PuraAgent containers such as PuraAgent Bar, PuraAgent Input.",
     "$value": {
@@ -247,7 +307,7 @@
       "radius": 10
     }
   },
-  "blur/ai-footer-backdrop": {
+  "blur/footer.backdrop": {
     "$type": "blur",
     "$description": "Progressive backdrop blur for AI footer. Fades from no blur at the top to full blur at the bottom.",
     "$value": {
@@ -259,7 +319,7 @@
       "endOffset": { "x": 0.5, "y": 1 }
     }
   },
-  "blur/ai-header-backdrop": {
+  "blur/header.backdrop": {
     "$type": "blur",
     "$description": "Progressive backdrop blur for AI header. Fades from full blur at the top to no blur at the bottom.",
     "$value": {

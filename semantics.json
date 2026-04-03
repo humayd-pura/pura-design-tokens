@@ -47,6 +47,10 @@
     "$type": "color",
     "$value": "{color.primitive.mist.blue.700}"
   },
+  "Light.surface.brand.subtle": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.200}"
+  },
   "Light.surface.brand.inverse": {
     "$type": "color",
     "$value": "{color.primitive.mist.blue.100}"
@@ -63,21 +67,45 @@
     "$type": "color",
     "$value": "{color.primitive.mist.blue.400}"
   },
+  "Light.surface.positive.strong": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.800}"
+  },
   "Light.surface.positive.default": {
     "$type": "color",
     "$value": "{color.primitive.mist.blue.600}"
   },
-  "Light.surface.positive.secondary": {
+  "Light.surface.positive.medium": {
     "$type": "color",
     "$value": "{color.primitive.mist.blue.500}"
   },
-  "Light.surface.positive.tertiary": {
+  "Light.surface.positive.soft": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.300}"
+  },
+  "Light.surface.positive.subtle": {
     "$type": "color",
     "$value": "{color.primitive.mist.blue.100}"
   },
-  "Light.surface.negative.tertiary": {
+  "Light.surface.negative.strong": {
+    "$type": "color",
+    "$value": "{color.primitive.rose.clay.900}"
+  },
+  "Light.surface.negative.default": {
+    "$type": "color",
+    "$value": "{color.primitive.rose.clay.800}"
+  },
+  "Light.surface.negative.medium": {
+    "$type": "color",
+    "$value": "{color.primitive.rose.clay.700}"
+  },
+  "Light.surface.negative.soft": {
     "$type": "color",
     "$value": "{color.primitive.rose.clay.400}"
+  },
+  "Light.surface.negative.subtle": {
+    "$type": "color",
+    "$value": "{color.primitive.rose.clay.100}"
   },
   "Light.surface.overlay.default": {
     "$type": "color",
@@ -99,13 +127,13 @@
     "$type": "color",
     "$value": "{color.primitive.white.1000}"
   },
-  "Light.content.brand.inverse": {
+  "Light.content.default.inverse-secondary": {
     "$type": "color",
-    "$value": "{color.primitive.mist.blue.100}"
+    "$value": "{color.primitive.white.800}"
   },
-  "Light.content.brand.inverse-secondary": {
+  "Light.content.default.muted": {
     "$type": "color",
-    "$value": "{color.primitive.mist.blue.300}"
+    "$value": "{color.primitive.neutral.400}"
   },
   "Light.content.brand.default": {
     "$type": "color",
@@ -123,25 +151,49 @@
     "$type": "color",
     "$value": "{color.primitive.mist.blue.800}"
   },
+  "Light.content.brand.inverse": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.100}"
+  },
+  "Light.content.brand.inverse-secondary": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.300}"
+  },
+  "Light.content.positive.strong": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.800}"
+  },
   "Light.content.positive.default": {
     "$type": "color",
     "$value": "{color.primitive.mist.blue.600}"
   },
-  "Light.content.positive.secondary": {
+  "Light.content.positive.medium": {
     "$type": "color",
     "$value": "{color.primitive.mist.blue.500}"
+  },
+  "Light.content.positive.soft": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.400}"
+  },
+  "Light.content.negative.strong": {
+    "$type": "color",
+    "$value": "{color.primitive.rose.clay.900}"
   },
   "Light.content.negative.default": {
     "$type": "color",
     "$value": "{color.primitive.rose.clay.800}"
   },
-  "Light.content.negative.secondary": {
+  "Light.content.negative.medium": {
     "$type": "color",
     "$value": "{color.primitive.rose.clay.700}"
   },
   "Light.content.negative.inverse": {
     "$type": "color",
-    "$value": "{color.primitive.rose.clay.600}"
+    "$value": "{color.primitive.rose.clay.500}"
+  },
+  "Light.border.brand.medium": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.300}"
   },
   "Light.border.default.medium": {
     "$type": "color",
@@ -150,6 +202,14 @@
   "Light.border.default.subtle": {
     "$type": "color",
     "$value": "{color.primitive.black.100}"
+  },
+  "Light.border.default.inverse": {
+    "$type": "color",
+    "$value": "{color.primitive.white.1000}"
+  },
+  "Light.border.default.inverse-medium": {
+    "$type": "color",
+    "$value": "{color.primitive.white.200}"
   },
   "Light.health.neutral.strong": {
     "$type": "color",
@@ -164,6 +224,10 @@
     "$value": "{color.primitive.warm.sand.800}"
   },
   "Light.health.neutral.soft": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.600}"
+  },
+  "Light.health.neutral.muted": {
     "$type": "color",
     "$value": "{color.primitive.warm.sand.400}"
   },
@@ -185,6 +249,10 @@
   },
   "Light.health.positive.soft": {
     "$type": "color",
+    "$value": "{color.primitive.mist.blue.400}"
+  },
+  "Light.health.positive.muted": {
+    "$type": "color",
     "$value": "{color.primitive.mist.blue.300}"
   },
   "Light.health.positive.subtle": {
@@ -204,6 +272,10 @@
     "$value": "{color.primitive.rose.clay.800}"
   },
   "Light.health.negative.soft": {
+    "$type": "color",
+    "$value": "{color.primitive.rose.clay.600}"
+  },
+  "Light.health.negative.muted": {
     "$type": "color",
     "$value": "{color.primitive.rose.clay.500}"
   },
@@ -251,41 +323,25 @@
     "$type": "color",
     "$value": "{color.primitive.warm.sand.100}"
   },
-  "Light.content.default.muted": {
+  "Light.Fitcoin.default": {
     "$type": "color",
-    "$value": "{color.primitive.neutral.400}"
+    "$value": "{color.primitive.mist.blue.400}"
   },
-  "Light.content.default.inverse-secondary": {
-    "$type": "color",
-    "$value": "{color.primitive.neutral.400}"
-  },
-  "Light.surface.brand.subtle": {
+  "Light.Fitcoin.soft": {
     "$type": "color",
     "$value": "{color.primitive.mist.blue.200}"
   },
-  "Light.surface.negative.secondary": {
+  "Light.Fitcoin.subtle": {
     "$type": "color",
-    "$value": "{color.primitive.rose.clay.700}"
+    "$value": "{color.primitive.mist.blue.100}"
   },
-  "Light.surface.negative.default": {
+  "Light.Fitcoin.secondary": {
     "$type": "color",
-    "$value": "{color.primitive.rose.clay.800}"
+    "$value": "{color.primitive.warm.sand.400}"
   },
-  "Light.content.negative.strong": {
+  "Light.Fitcoin.secondary-soft": {
     "$type": "color",
-    "$value": "{color.primitive.rose.clay.900}"
-  },
-  "Light.surface.positive.strong": {
-    "$type": "color",
-    "$value": "{color.primitive.mist.blue.800}"
-  },
-  "Light.content.positive.strong": {
-    "$type": "color",
-    "$value": "{color.primitive.mist.blue.800}"
-  },
-  "Light.border.default.inverse": {
-    "$type": "color",
-    "$value": "{color.primitive.white.1000}"
+    "$value": "{color.primitive.warm.sand.200}"
   },
   "spacing.none": {
     "$type": "dimension",
@@ -354,6 +410,10 @@
   "border.weight.default": {
     "$type": "dimension",
     "$value": "{unit.primitive.01}"
+  },
+  "border.weight.medium": {
+    "$type": "dimension",
+    "$value": 1.5
   },
   "border.weight.strong": {
     "$type": "dimension",

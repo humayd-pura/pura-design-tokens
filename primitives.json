@@ -235,6 +235,18 @@
     "$type": "color",
     "$value": "#000000"
   },
+  "color.primitive.white.100": {
+    "$type": "color",
+    "$value": "#ffffff1a"
+  },
+  "color.primitive.white.200": {
+    "$type": "color",
+    "$value": "#ffffff33"
+  },
+  "color.primitive.white.300": {
+    "$type": "color",
+    "$value": "#ffffff4d"
+  },
   "color.primitive.white.500": {
     "$type": "color",
     "$value": "#ffffff80"
@@ -242,6 +254,10 @@
   "color.primitive.white.700": {
     "$type": "color",
     "$value": "#ffffffb2"
+  },
+  "color.primitive.white.800": {
+    "$type": "color",
+    "$value": "#ffffffcc"
   },
   "color.primitive.white.1000": {
     "$type": "color",

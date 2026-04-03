@@ -35,6 +35,10 @@
     "$type": "dimension",
     "$value": 80
   },
+  "component.icon.size-xsmall": {
+    "$type": "dimension",
+    "$value": 12
+  },
   "component.icon.size-small": {
     "$type": "dimension",
     "$value": "{unit.primitive.05}"
@@ -71,6 +75,58 @@
     "$type": "color",
     "$value": "{Light.content.negative.default}"
   },
+  "component.badge.surface-default": {
+    "$type": "color",
+    "$value": "{color.primitive.sage.200}"
+  },
+  "component.badge.surface-strong": {
+    "$type": "color",
+    "$value": "{color.primitive.sage.300}"
+  },
+  "component.badge.surface-extra-strong": {
+    "$type": "color",
+    "$value": "{color.primitive.sage.400}"
+  },
+  "component.badge.surface-neutral": {
+    "$type": "color",
+    "$value": "{color.primitive.black.200}"
+  },
+  "component.badge.surface-neutral-inverse": {
+    "$type": "color",
+    "$value": "{color.primitive.white.300}"
+  },
+  "component.badge.size-xxxs": {
+    "$type": "dimension",
+    "$value": 28
+  },
+  "component.badge.size-xxs": {
+    "$type": "dimension",
+    "$value": 32
+  },
+  "component.badge.size-xs": {
+    "$type": "dimension",
+    "$value": 40
+  },
+  "component.badge.size-sm": {
+    "$type": "dimension",
+    "$value": 48
+  },
+  "component.badge.size-md": {
+    "$type": "dimension",
+    "$value": 80
+  },
+  "component.badge.size-lg": {
+    "$type": "dimension",
+    "$value": 88
+  },
+  "component.badge.size-xl": {
+    "$type": "dimension",
+    "$value": 100
+  },
+  "component.badge.size-xxl": {
+    "$type": "dimension",
+    "$value": 120
+  },
   "component.badge-group.space-between": {
     "$type": "dimension",
     "$value": -16
@@ -78,6 +134,26 @@
   "component.badge-group.border-weight": {
     "$type": "dimension",
     "$value": "{unit.primitive.02}"
+  },
+  "component.card.padding-none": {
+    "$type": "dimension",
+    "$value": "{spacing.none}"
+  },
+  "component.card.padding-xsmall": {
+    "$type": "dimension",
+    "$value": "{spacing.sm}"
+  },
+  "component.card.padding-small": {
+    "$type": "dimension",
+    "$value": "{spacing.md}"
+  },
+  "component.card.padding-medium": {
+    "$type": "dimension",
+    "$value": "{spacing.lg}"
+  },
+  "component.card.radius": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.05}"
   },
   "component.carousel-indicator.inverse-active": {
     "$type": "color",
@@ -95,13 +171,45 @@
     "$type": "color",
     "$value": "{color.primitive.black.200}"
   },
-  "component.step-indicator.line-active": {
+  "component.checkbox.surface-unselected": {
     "$type": "color",
-    "$value": "{Light.surface.brand.default}"
+    "$value": "{color.primitive.black.300}"
   },
-  "component.step-indicator.line-inactive": {
+  "component.checkbox.surface-selected": {
     "$type": "color",
-    "$value": "{color.primitive.black.100}"
+    "$value": "{color.primitive.mist.blue.500}"
+  },
+  "component.confetti.neutral": {
+    "$type": "color",
+    "$value": "{color.primitive.white.700}"
+  },
+  "component.confetti.positive": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.600}"
+  },
+  "component.copy-button.surface-default": {
+    "$type": "color",
+    "$value": "{color.primitive.white.300}"
+  },
+  "component.copy-button.surface-active": {
+    "$type": "color",
+    "$value": "{color.primitive.white.100}"
+  },
+  "component.dropdown-chip.surface-inverse": {
+    "$type": "color",
+    "$value": "{color.primitive.sage.900}"
+  },
+  "component.my-challenge.inactive": {
+    "$type": "color",
+    "$value": "{color.primitive.white.100}"
+  },
+  "component.my-challenge.active": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.400}"
+  },
+  "component.my-challenge.border-weight": {
+    "$type": "dimension",
+    "$value": 40
   },
   "component.pura-agent.container-surface": {
     "$type": "color",
@@ -119,21 +227,21 @@
     "$type": "color",
     "$value": "{Light.ai.default.medium}"
   },
-  "component.icon.size-xsmall": {
+  "component.sheet.padding-none": {
     "$type": "dimension",
-    "$value": 12
+    "$value": "{spacing.none}"
   },
-  "component.badge.surface-default": {
-    "$type": "color",
-    "$value": "{color.primitive.sage.200}"
+  "component.sheet.padding-small": {
+    "$type": "dimension",
+    "$value": "{spacing.lg}"
   },
-  "component.badge.surface-strong": {
-    "$type": "color",
-    "$value": "{color.primitive.sage.300}"
+  "component.sheet.padding-medium": {
+    "$type": "dimension",
+    "$value": "{spacing.xl}"
   },
-  "component.badge.surface-extra-strong": {
-    "$type": "color",
-    "$value": "{color.primitive.sage.400}"
+  "component.sheet.radius": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.06}"
   },
   "component.star-rating-input.surface-unselected": {
     "$type": "color",
@@ -143,21 +251,13 @@
     "$type": "color",
     "$value": "{color.primitive.mist.blue.400}"
   },
-  "component.card.padding-small": {
-    "$type": "dimension",
-    "$value": "{spacing.md}"
+  "component.step-indicator.line-active": {
+    "$type": "color",
+    "$value": "{Light.surface.brand.default}"
   },
-  "component.card.padding-medium": {
-    "$type": "dimension",
-    "$value": "{spacing.lg}"
-  },
-  "component.sheet.padding-small": {
-    "$type": "dimension",
-    "$value": "{spacing.lg}"
-  },
-  "component.sheet.padding-medium": {
-    "$type": "dimension",
-    "$value": "{spacing.xl}"
+  "component.step-indicator.line-inactive": {
+    "$type": "color",
+    "$value": "{color.primitive.black.100}"
   },
   "component.attachment.surface-control": {
     "$type": "color",
