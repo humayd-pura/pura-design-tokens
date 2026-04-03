@@ -161,7 +161,7 @@
   },
   "component.carousel-indicator.inverse-inactive": {
     "$type": "color",
-    "$value": "{color.primitive.white.800}"
+    "$value": "{color.primitive.white.500}"
   },
   "component.carousel-indicator.default-active": {
     "$type": "color",
