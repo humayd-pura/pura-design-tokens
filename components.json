@@ -77,7 +77,7 @@
   },
   "component.badge.surface-default": {
     "$type": "color",
-    "$value": "{color.primitive.sage.200}"
+    "$value": "{Light.surface.default.tertiary}"
   },
   "component.badge.surface-strong": {
     "$type": "color",
@@ -169,7 +169,7 @@
   },
   "component.carousel-indicator.default-inactive": {
     "$type": "color",
-    "$value": "{color.primitive.black.200}"
+    "$value": "{Light.border.default.medium}"
   },
   "component.checkbox.surface-unselected": {
     "$type": "color",
@@ -185,7 +185,7 @@
   },
   "component.confetti.positive": {
     "$type": "color",
-    "$value": "{color.primitive.mist.blue.600}"
+    "$value": "{Light.health.positive.strong}"
   },
   "component.copy-button.surface-default": {
     "$type": "color",
@@ -194,6 +194,10 @@
   "component.copy-button.surface-active": {
     "$type": "color",
     "$value": "{color.primitive.white.100}"
+  },
+  "component.copy-button.surface-secondary-default": {
+    "$type": "color",
+    "$value": "{color.primitive.white.200}"
   },
   "component.dropdown-chip.surface-inverse": {
     "$type": "color",
@@ -205,7 +209,7 @@
   },
   "component.my-challenge.active": {
     "$type": "color",
-    "$value": "{color.primitive.mist.blue.400}"
+    "$value": "{Light.health.positive.soft}"
   },
   "component.my-challenge.border-weight": {
     "$type": "dimension",
@@ -257,10 +261,7 @@
   },
   "component.step-indicator.line-inactive": {
     "$type": "color",
-    "$value": "{color.primitive.black.100}"
-  },
-  "component.attachment.surface-control": {
-    "$type": "color",
-    "$value": "{color.primitive.black.300}"
+    "$value": "{Light.border.default.subtle}"
   }
 }
+
