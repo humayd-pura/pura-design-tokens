@@ -323,23 +323,23 @@
     "$type": "color",
     "$value": "{color.primitive.warm.sand.100}"
   },
-  "Light.Fitcoin.default": {
+  "Light.Fitcoin.default.default": {
     "$type": "color",
     "$value": "{color.primitive.mist.blue.400}"
   },
-  "Light.Fitcoin.soft": {
+  "Light.Fitcoin.default.soft": {
     "$type": "color",
     "$value": "{color.primitive.mist.blue.200}"
   },
-  "Light.Fitcoin.subtle": {
+  "Light.Fitcoin.default.subtle": {
     "$type": "color",
     "$value": "{color.primitive.mist.blue.100}"
   },
-  "Light.Fitcoin.secondary": {
+  "Light.Fitcoin.default.secondary": {
     "$type": "color",
     "$value": "{color.primitive.warm.sand.400}"
   },
-  "Light.Fitcoin.secondary-soft": {
+  "Light.Fitcoin.default.secondary-soft": {
     "$type": "color",
     "$value": "{color.primitive.warm.sand.200}"
   },
