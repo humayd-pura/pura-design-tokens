@@ -1,4 +1,14 @@
 {
+  "typography.display.xLarge": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{text.primitive.font.family.font-default}",
+      "fontWeight": "{text.primitive.font.weight.weight-medium}",
+      "fontSize": "{text.display.font-xlarge}",
+      "lineHeight": "{text.display.line-height-xlarge}",
+      "letterSpacing": "{text.display.letter-spacing-xlarge}"
+    }
+  },
   "typography.display.large": {
     "$type": "typography",
     "$value": {
@@ -147,6 +157,46 @@
       "fontSize": "{text.body.font-xsmall}",
       "lineHeight": "{text.body.line-height-xsmall}",
       "letterSpacing": "{text.body.letter-spacing-xsmall}"
+    }
+  },
+  "typography.label.large": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{text.primitive.font.family.font-default}",
+      "fontWeight": "{text.primitive.font.weight.weight-medium}",
+      "fontSize": "{text.label.font-large}",
+      "lineHeight": "{text.label.line-height-large}",
+      "letterSpacing": "{text.label.letter-spacing}"
+    }
+  },
+  "typography.label.medium": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{text.primitive.font.family.font-default}",
+      "fontWeight": "{text.primitive.font.weight.weight-medium}",
+      "fontSize": "{text.label.font-medium}",
+      "lineHeight": "{text.label.line-height-medium}",
+      "letterSpacing": "{text.label.letter-spacing}"
+    }
+  },
+  "typography.label.small": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{text.primitive.font.family.font-default}",
+      "fontWeight": "{text.primitive.font.weight.weight-medium}",
+      "fontSize": "{text.label.font-small}",
+      "lineHeight": "{text.label.line-height-small}",
+      "letterSpacing": "{text.label.letter-spacing}"
+    }
+  },
+  "typography.label.xSmall": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{text.primitive.font.family.font-default}",
+      "fontWeight": "{text.primitive.font.weight.weight-medium}",
+      "fontSize": "{text.label.font-xsmall}",
+      "lineHeight": "{text.label.line-height-xsmall}",
+      "letterSpacing": "{text.label.letter-spacing}"
     }
   }
 }
