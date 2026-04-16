@@ -13,7 +13,7 @@
   },
   "component.button.surface-ghost-pressed": {
     "$type": "color",
-    "$value": "{color.primitive.black.050}"
+    "$value": "{Light.surface.tint.subtle}"
   },
   "component.button.height-large": {
     "$type": "dimension",
@@ -87,13 +87,13 @@
     "$type": "color",
     "$value": "{color.primitive.sage.400}"
   },
-  "component.badge.surface-neutral": {
+  "component.badge.surface-tint": {
     "$type": "color",
-    "$value": "{color.primitive.black.200}"
+    "$value": "{Light.surface.tint.soft}"
   },
-  "component.badge.surface-neutral-inverse": {
+  "component.badge.surface-tint-inverse": {
     "$type": "color",
-    "$value": "{color.primitive.white.300}"
+    "$value": "{Light.surface.tint.inverse-soft}"
   },
   "component.badge.size-xxxs": {
     "$type": "dimension",
@@ -161,7 +161,7 @@
   },
   "component.carousel-indicator.inverse-inactive": {
     "$type": "color",
-    "$value": "{color.primitive.white.500}"
+    "$value": "{Light.surface.tint.inverse-medium}"
   },
   "component.carousel-indicator.default-active": {
     "$type": "color",
@@ -173,7 +173,7 @@
   },
   "component.checkbox.surface-unselected": {
     "$type": "color",
-    "$value": "{color.primitive.black.300}"
+    "$value": "{Light.surface.tint.medium}"
   },
   "component.checkbox.surface-selected": {
     "$type": "color",
@@ -181,23 +181,11 @@
   },
   "component.confetti.neutral": {
     "$type": "color",
-    "$value": "{color.primitive.white.700}"
+    "$value": "{Light.content.default.inverse-secondary}"
   },
   "component.confetti.positive": {
     "$type": "color",
     "$value": "{Light.health.positive.strong}"
-  },
-  "component.copy-button.surface-default": {
-    "$type": "color",
-    "$value": "{color.primitive.white.300}"
-  },
-  "component.copy-button.surface-active": {
-    "$type": "color",
-    "$value": "{color.primitive.white.100}"
-  },
-  "component.copy-button.surface-secondary-default": {
-    "$type": "color",
-    "$value": "{color.primitive.white.200}"
   },
   "component.dropdown-chip.surface-inverse": {
     "$type": "color",
@@ -217,7 +205,7 @@
   },
   "component.pura-agent.container-surface": {
     "$type": "color",
-    "$value": "{color.primitive.white.700}"
+    "$value": "{Light.content.default.inverse-secondary}"
   },
   "component.pura-agent.container-border": {
     "$type": "color",
@@ -262,6 +250,26 @@
   "component.step-indicator.line-inactive": {
     "$type": "color",
     "$value": "{Light.border.default.subtle}"
+  },
+  "component.chart.surface-track-default": {
+    "$type": "color",
+    "$value": "{Light.surface.default.secondary}"
+  },
+  "component.chart.surface-track-onsecondary": {
+    "$type": "color",
+    "$value": "{Light.surface.default.default}"
+  },
+  "component.chart.surface-track-inverse": {
+    "$type": "color",
+    "$value": "{Light.surface.tint.inverse-subtle}"
+  },
+  "component.chart.surface-track-tinted": {
+    "$type": "color",
+    "$value": "{Light.surface.tint.soft}"
+  },
+  "component.uae-pass-button.surface": {
+    "$type": "color",
+    "$value": "{color.primitive.black.1000}"
   }
 }
 
