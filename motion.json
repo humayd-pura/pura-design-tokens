@@ -1,0 +1,62 @@
+{
+  "motion.easing.ease-out": {
+    "$type": "cubicBezier",
+    "$value": [0.33, 0.00, 0.25, 1.00],
+    "ios": "CAMediaTimingFunction(controlPoints: 0.33, 0.00, 0.25, 1.00)",
+    "android": "PathInterpolator(0.33f, 0.0f, 0.25f, 1.0f)"
+  },
+  "motion.easing.ease-in": {
+    "$type": "cubicBezier",
+    "$value": [0.75, 0.00, 0.67, 1.00],
+    "ios": "CAMediaTimingFunction(controlPoints: 0.75, 0.00, 0.67, 1.00)",
+    "android": "PathInterpolator(0.75f, 0.0f, 0.67f, 1.0f)"
+  },
+  "motion.duration.200": {
+    "$type": "duration",
+    "$value": "200ms",
+    "ios": 0.2,
+    "android": 200
+  },
+  "motion.duration.300": {
+    "$type": "duration",
+    "$value": "300ms",
+    "ios": 0.3,
+    "android": 300
+  },
+  "motion.duration.500": {
+    "$type": "duration",
+    "$value": "500ms",
+    "ios": 0.5,
+    "android": 500
+  },
+  "motion.duration.700": {
+    "$type": "duration",
+    "$value": "700ms",
+    "ios": 0.7,
+    "android": 700
+  },
+  "motion.duration.1000": {
+    "$type": "duration",
+    "$value": "1000ms",
+    "ios": 1.0,
+    "android": 1000
+  },
+  "motion.delay.50": {
+    "$type": "duration",
+    "$value": "50ms",
+    "ios": 0.05,
+    "android": 50
+  },
+  "motion.delay.100": {
+    "$type": "duration",
+    "$value": "100ms",
+    "ios": 0.1,
+    "android": 100
+  },
+  "motion.delay.150": {
+    "$type": "duration",
+    "$value": "150ms",
+    "ios": 0.15,
+    "android": 150
+  }
+}
