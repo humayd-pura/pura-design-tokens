@@ -69,7 +69,7 @@
   },
   "color.primitive.purple.900": {
     "$type": "color",
-    "$value": "#3a2f42"
+    "$value": "#1d1721"
   },
   "color.primitive.rose.clay.100": {
     "$type": "color",
@@ -141,7 +141,7 @@
   },
   "color.primitive.warm.sand.900": {
     "$type": "color",
-    "$value": "#38261e"
+    "$value": "#2a170e"
   },
   "color.primitive.sage.100": {
     "$type": "color",
