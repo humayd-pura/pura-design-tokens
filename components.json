@@ -29,8 +29,7 @@
   },
   "component.button.max-width": {
     "$type": "dimension",
-    "$value": 1000
-  
+    "$value": 400
   },
   "component.button.min-width": {
     "$type": "dimension",
