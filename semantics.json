@@ -107,6 +107,10 @@
     "$type": "color",
     "$value": "{color.primitive.rose.clay.100}"
   },
+  "Light.surface.negative.faint": {
+    "$type": "color",
+    "$value": "{color.primitive.rose.clay.300}"
+  },
   "Light.surface.overlay.default": {
     "$type": "color",
     "$value": "{color.primitive.black.200}"
@@ -246,6 +250,10 @@
   "Light.border.default.inverse-medium": {
     "$type": "color",
     "$value": "{color.primitive.white.200}"
+  },
+  "Light.health.neutral.extra-strong": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.900}"
   },
   "Light.health.neutral.strong": {
     "$type": "color",
@@ -439,23 +447,23 @@
     "$type": "color",
     "$value": "{color.primitive.warm.sand.100}"
   },
-  "Light.Fitcoin.default.default": {
+  "Light.fitcoin.default.default": {
     "$type": "color",
     "$value": "{color.primitive.mist.blue.400}"
   },
-  "Light.Fitcoin.default.soft": {
+  "Light.fitcoin.default.soft": {
     "$type": "color",
     "$value": "{color.primitive.mist.blue.200}"
   },
-  "Light.Fitcoin.default.subtle": {
+  "Light.fitcoin.default.subtle": {
     "$type": "color",
     "$value": "{color.primitive.mist.blue.100}"
   },
-  "Light.Fitcoin.default.secondary": {
+  "Light.fitcoin.default.secondary": {
     "$type": "color",
     "$value": "{color.primitive.warm.sand.400}"
   },
-  "Light.Fitcoin.default.secondary-soft": {
+  "Light.fitcoin.default.secondary-soft": {
     "$type": "color",
     "$value": "{color.primitive.warm.sand.200}"
   },
@@ -503,6 +511,10 @@
     "$type": "dimension",
     "$value": 78
   },
+  "spacing.clearance-side": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.07}"
+  },
   "radius.none": {
     "$type": "dimension",
     "$value": "{unit.primitive.00}"
@@ -522,6 +534,10 @@
   "radius.lg": {
     "$type": "dimension",
     "$value": "{unit.primitive.06}"
+  },
+  "radius.xlg": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.07}"
   },
   "radius.full": {
     "$type": "dimension",
