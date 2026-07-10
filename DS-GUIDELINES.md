@@ -221,7 +221,7 @@ With optional pressed states: `{name}-pressed`
 
 **Figma is the source of truth.** JSON files reflect Figma state, not the other way around.
 
-**Repo:** `hiro-fantasyco/pura-design-tokens`
+**Repo:** `humayd-pura/pura-design-tokens`
 
 These tokens are for a **mobile app** (iOS and Android). The JSON format is optimized for mobile consumption.
 

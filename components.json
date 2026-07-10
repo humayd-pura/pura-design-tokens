@@ -191,19 +191,7 @@
     "$type": "color",
     "$value": "{color.primitive.sage.900}"
   },
-  "component.my-challenge.inactive": {
-    "$type": "color",
-    "$value": "{color.primitive.white.100}"
-  },
-  "component.my-challenge.active": {
-    "$type": "color",
-    "$value": "{Light.health.positive.soft}"
-  },
-  "component.my-challenge.border-weight": {
-    "$type": "dimension",
-    "$value": 40
-  },
-  "component.pura-agent.container-surface": {
+"component.pura-agent.container-surface": {
     "$type": "color",
     "$value": "{Light.content.default.inverse-secondary}"
   },
