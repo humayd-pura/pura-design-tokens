@@ -231,9 +231,17 @@
     "$type": "color",
     "$value": "{color.primitive.rose.clay.500}"
   },
+  "Light.border.brand.light": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.100}"
+  },
   "Light.border.brand.medium": {
     "$type": "color",
     "$value": "{color.primitive.mist.blue.300}"
+  },
+  "Light.border.brand.warm": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.200}"
   },
   "Light.border.default.medium": {
     "$type": "color",
@@ -407,6 +415,14 @@
     "$type": "color",
     "$value": "{Light.health.negative.muted}"
   },
+  "Light.digital-twin.bad.ai-blue": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "Light.digital-twin.bad.ai-blue-2": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
   "Light.ai.default.strong": {
     "$type": "color",
     "$value": "{color.primitive.rose.clay.800}"
@@ -466,6 +482,54 @@
   "Light.fitcoin.default.secondary-soft": {
     "$type": "color",
     "$value": "{color.primitive.warm.sand.200}"
+  },
+  "Light.surface.canvas.base": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.050}"
+  },
+  "Light.surface.canvas.warm": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.100}"
+  },
+  "Light.surface.ai-gradient.bg-1": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.100}"
+  },
+  "Light.surface.ai-gradient.bg-2": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.200}"
+  },
+  "Light.surface.ai-gradient.bg-3": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.300}"
+  },
+  "Light.surface.ai-gradient.bg-4": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.400}"
+  },
+  "Light.surface.ai-gradient.bg-5": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.500}"
+  },
+  "Light.surface.ai-gradient.bg-6": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.100}"
+  },
+  "Light.surface.ai-gradient.bg-7": {
+    "$type": "color",
+    "$value": "{color.primitive.purple.200}"
+  },
+  "Light.surface.ai-gradient.bg-8": {
+    "$type": "color",
+    "$value": "{color.primitive.sage.100}"
+  },
+  "Light.canvas.ai-bg-7": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.200}"
+  },
+  "spacing.base": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.05-5}"
   },
   "spacing.none": {
     "$type": "dimension",

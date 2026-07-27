@@ -1,4 +1,8 @@
 {
+  "color.primitive.mist.blue.050": {
+    "$type": "color",
+    "$value": "#f0f5fa"
+  },
   "color.primitive.mist.blue.100": {
     "$type": "color",
     "$value": "#e5f1fc"
@@ -231,6 +235,10 @@
     "$type": "color",
     "$value": "#0000004d"
   },
+  "color.primitive.black.400": {
+    "$type": "color",
+    "$value": "#00000066"
+  },
   "color.primitive.black.500": {
     "$type": "color",
     "$value": "#00000080"
@@ -239,13 +247,25 @@
     "$type": "color",
     "$value": "#00000099"
   },
+  "color.primitive.black.700": {
+    "$type": "color",
+    "$value": "#000000b3"
+  },
   "color.primitive.black.800": {
     "$type": "color",
     "$value": "#000000cc"
   },
+  "color.primitive.black.900": {
+    "$type": "color",
+    "$value": "#000000e6"
+  },
   "color.primitive.black.1000": {
     "$type": "color",
     "$value": "#000000"
+  },
+  "color.primitive.white.050": {
+    "$type": "color",
+    "$value": "#ffffff0d"
   },
   "color.primitive.white.100": {
     "$type": "color",
@@ -259,9 +279,17 @@
     "$type": "color",
     "$value": "#ffffff4d"
   },
+  "color.primitive.white.400": {
+    "$type": "color",
+    "$value": "#ffffff66"
+  },
   "color.primitive.white.500": {
     "$type": "color",
     "$value": "#ffffff80"
+  },
+  "color.primitive.white.600": {
+    "$type": "color",
+    "$value": "#ffffff99"
   },
   "color.primitive.white.700": {
     "$type": "color",
@@ -270,6 +298,10 @@
   "color.primitive.white.800": {
     "$type": "color",
     "$value": "#ffffffcc"
+  },
+  "color.primitive.white.900": {
+    "$type": "color",
+    "$value": "#ffffffe6"
   },
   "color.primitive.white.1000": {
     "$type": "color",
@@ -298,6 +330,10 @@
   "unit.primitive.05": {
     "$type": "dimension",
     "$value": 16
+  },
+  "unit.primitive.05-5": {
+    "$type": "dimension",
+    "$value": 20
   },
   "unit.primitive.06": {
     "$type": "dimension",

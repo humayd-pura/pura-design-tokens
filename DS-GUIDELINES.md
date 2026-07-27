@@ -271,3 +271,64 @@ These tokens are for a **mobile app** (iOS and Android). The JSON format is opti
 | Border Weight | `border.weight.*` | `border.weight.default` |
 | Effects | `shadow/*`, `gradient/*`, `blur/*`, `effect/*` | `gradient/ai.icon.surface` |
 | Motion | `motion.*` | `motion.easing.ease-out` |
+
+---
+
+## 8. Card System
+
+### Card Types
+
+There are 5 card types in the Pura design system:
+
+| Type | Primary content | User's job | Trigger |
+|------|----------------|-----------|---------|
+| **Data Card** | Metrics, stats, charts | Read / monitor | On load or scheduled |
+| **Action Card** | CTA, task, prompt | Do something | Goal state or task detection |
+| **Discovery Card** | Tips, education, content | Learn / explore | Algorithmic or editorial |
+| **Record Card** | A logged entry or item | Review / manage | Explicit user action (log, create) |
+| **Contextual Card** | Explanation of health context | Understand why | Health state change detection |
+
+### Classification Rubric
+
+Use these 3 questions in order to classify any card:
+
+**Q1 — What is the primary content type?**
+Choose the type whose content definition best matches what the card displays. This answers the question in most cases.
+
+**Q2 — What is the user's primary job? (tiebreaker)**
+If Q1 is ambiguous between two types, ask what the user is supposed to *do* with this card. Contextual = understand why. Action = do something. Data = read/monitor. Discovery = learn. Record = review/manage.
+
+**Q3 — What triggers the card?**
+Use this as a final tiebreaker or sanity check. Health state change → Contextual. Goal/task detection → Action. Scheduled/load → Data. Algorithmic → Discovery. User action → Record.
+
+### Classification Logic
+
+- **2-of-3 agreement** across the questions = that type wins.
+- **Q2 as ultimate tiebreaker** if still tied after all three questions.
+- **Log ambiguous decisions** in the Cards/Decisions section of your working notes.
+- If **3+ cards of the same type** don't fit well, propose a new type rather than forcing a fit.
+
+### Naming Convention
+
+Cards are named by **content or function** — never by location, hierarchy, or screen.
+
+Pattern: `[Content or Function] Card`
+
+Examples:
+- `Primary Card` → describes the card's prominence/function ✓
+- `Home Card` → named by location ✗
+- `Top Card` → named by hierarchy ✗
+
+Sub-components follow scoped naming:
+`[Card Name] / [Sub-component Name]`
+
+Example: `Primary Card / Description`
+
+### Example Classification
+
+**Primary Card / Description**
+- Content: Explanation of health context ("These actions target your recent late-night spikes.")
+- User's job: Understand *why* these actions are relevant
+- Trigger: Health state change detection
+
+→ **Contextual Card**
