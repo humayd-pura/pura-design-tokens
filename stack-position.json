@@ -1,0 +1,34 @@
+{
+  "Solo.stack-position.radius-top": {
+    "$type": "dimension",
+    "$value": "{radius.md}"
+  },
+  "Solo.stack-position.radius-bottom": {
+    "$type": "dimension",
+    "$value": "{radius.md}"
+  },
+  "Top.stack-position.radius-top": {
+    "$type": "dimension",
+    "$value": "{radius.md}"
+  },
+  "Top.stack-position.radius-bottom": {
+    "$type": "dimension",
+    "$value": "{radius.sm}"
+  },
+  "Middle.stack-position.radius-top": {
+    "$type": "dimension",
+    "$value": "{radius.sm}"
+  },
+  "Middle.stack-position.radius-bottom": {
+    "$type": "dimension",
+    "$value": "{radius.sm}"
+  },
+  "Bottom.stack-position.radius-top": {
+    "$type": "dimension",
+    "$value": "{radius.sm}"
+  },
+  "Bottom.stack-position.radius-bottom": {
+    "$type": "dimension",
+    "$value": "{radius.md}"
+  }
+}

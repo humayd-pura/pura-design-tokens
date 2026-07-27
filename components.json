@@ -75,6 +75,18 @@
     "$type": "color",
     "$value": "{Light.content.negative.default}"
   },
+  "component.input.border": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.100}"
+  },
+  "component.input.negative-border": {
+    "$type": "color",
+    "$value": "{Light.content.negative.default}"
+  },
+  "component.input.secondary-surface": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.100}"
+  },
   "component.badge.surface-default": {
     "$type": "color",
     "$value": "{Light.surface.default.tertiary}"
@@ -146,6 +158,10 @@
   "component.card.padding-small": {
     "$type": "dimension",
     "$value": "{spacing.md}"
+  },
+  "component.card.padding-smedium": {
+    "$type": "dimension",
+    "$value": "{spacing.base}"
   },
   "component.card.padding-medium": {
     "$type": "dimension",
