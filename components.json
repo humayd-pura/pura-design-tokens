@@ -73,15 +73,23 @@
   },
   "component.input.hint-negative": {
     "$type": "color",
-    "$value": "{Light.content.negative.default}"
+    "$value": "{Light.health.negativecritical.strong}"
   },
   "component.input.border": {
     "$type": "color",
     "$value": "{color.primitive.mist.blue.100}"
   },
+  "component.input.negative-icon": {
+    "$type": "color",
+    "$value": "{Light.health.negativecritical.strong}"
+  },
+  "component.input.negative-surface": {
+    "$type": "color",
+    "$value": "{Light.health.negativecritical.soft}"
+  },
   "component.input.negative-border": {
     "$type": "color",
-    "$value": "{Light.content.negative.default}"
+    "$value": "{Light.health.negativecritical.medium}"
   },
   "component.input.secondary-surface": {
     "$type": "color",
@@ -193,6 +201,10 @@
   },
   "component.checkbox.surface-selected": {
     "$type": "color",
+    "$value": "{color.primitive.mist.blue.100}"
+  },
+  "component.checkbox.box-surface": {
+    "$type": "color",
     "$value": "{color.primitive.mist.blue.500}"
   },
   "component.confetti.neutral": {
@@ -201,7 +213,7 @@
   },
   "component.confetti.positive": {
     "$type": "color",
-    "$value": "{Light.health.positive.strong}"
+    "$value": "{Light.health.positivegreat.strong}"
   },
   "component.dropdown-chip.surface-inverse": {
     "$type": "color",
@@ -241,7 +253,7 @@
   },
   "component.star-rating-input.surface-unselected": {
     "$type": "color",
-    "$value": "{color.primitive.neutral.300}"
+    "$value": "{color.primitive.mist.blue.200}"
   },
   "component.star-rating-input.surface-selected": {
     "$type": "color",
@@ -274,6 +286,26 @@
   "component.uae-pass-button.surface": {
     "$type": "color",
     "$value": "{color.primitive.black.1000}"
+  },
+  "component.timeline.today-dot-surface": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.400}"
+  },
+  "component.timeline.today-dot-accent": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.050}"
+  },
+  "component.timeline.line": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.400}"
+  },
+  "component.timeline.interval-stroke": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.050}"
+  },
+  "component.timeline.interval-surface": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.700}"
   }
 }
 
