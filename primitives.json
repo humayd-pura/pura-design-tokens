@@ -181,7 +181,7 @@
   },
   "color.primitive.sage.900": {
     "$type": "color",
-    "$value": "#4a4842"
+    "$value": "#1e1d1a"
   },
   "color.primitive.neutral.100": {
     "$type": "color",
@@ -747,5 +747,13 @@
   "text.label.letter-spacing": {
     "$type": "dimension",
     "$value": "{text.primitive.letter.spacing.letter-spacing-0}"
+  },
+  "color.primitive.mist.blue.000": {
+    "$type": "color",
+    "$value": "#f0f5fa00"
+  },
+  "color.primitive.white.000": {
+    "$type": "color",
+    "$value": "#ffffff00"
   }
 }
