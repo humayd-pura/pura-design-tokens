@@ -27,14 +27,6 @@
     "$type": "dimension",
     "$value": 32
   },
-  "component.button.max-width": {
-    "$type": "dimension",
-    "$value": 400
-  },
-  "component.button.min-width": {
-    "$type": "dimension",
-    "$value": 80
-  },
   "component.icon.size-xsmall": {
     "$type": "dimension",
     "$value": 12
@@ -201,7 +193,7 @@
   },
   "component.checkbox.surface-selected": {
     "$type": "color",
-    "$value": "{color.primitive.mist.blue.100}"
+    "$value": "{color.primitive.mist.blue.400}"
   },
   "component.checkbox.box-surface": {
     "$type": "color",
@@ -215,25 +207,13 @@
     "$type": "color",
     "$value": "{Light.health.positivegreat.strong}"
   },
-  "component.dropdown-chip.surface-inverse": {
-    "$type": "color",
-    "$value": "{color.primitive.sage.900}"
-  },
-"component.pura-agent.container-surface": {
+  "component.pura-agent.container-surface": {
     "$type": "color",
     "$value": "{Light.content.default.inverse-secondary}"
   },
   "component.pura-agent.container-border": {
     "$type": "color",
     "$value": "{color.primitive.white.1000}"
-  },
-  "component.pura-agent.icon-inverse-xs": {
-    "$type": "color",
-    "$value": "{color.primitive.warm.sand.500}"
-  },
-  "component.pura-agent.icon-default-xs": {
-    "$type": "color",
-    "$value": "{Light.ai.default.medium}"
   },
   "component.sheet.padding-none": {
     "$type": "dimension",
@@ -283,10 +263,6 @@
     "$type": "color",
     "$value": "{Light.surface.tint.soft}"
   },
-  "component.uae-pass-button.surface": {
-    "$type": "color",
-    "$value": "{color.primitive.black.1000}"
-  },
   "component.timeline.today-dot-surface": {
     "$type": "color",
     "$value": "{color.primitive.mist.blue.400}"
@@ -295,10 +271,6 @@
     "$type": "color",
     "$value": "{color.primitive.mist.blue.050}"
   },
-  "component.timeline.line": {
-    "$type": "color",
-    "$value": "{color.primitive.mist.blue.400}"
-  },
   "component.timeline.interval-stroke": {
     "$type": "color",
     "$value": "{color.primitive.mist.blue.050}"
@@ -306,6 +278,397 @@
   "component.timeline.interval-surface": {
     "$type": "color",
     "$value": "{color.primitive.mist.blue.700}"
+  },
+  "component.biomarker.main-track": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.200}"
+  },
+  "component.biomarker.bar": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.400}"
+  },
+  "component.button.button-max-width": {
+    "$type": "dimension",
+    "$value": 400
+  },
+  "component.button.button-min-width": {
+    "$type": "dimension",
+    "$value": 80
+  },
+  "component.dropdown-chip-.-surface-inverse": {
+    "$type": "color",
+    "$value": "{color.primitive.sage.900}"
+  },
+  "component.pura-agent.icon-xs-default": {
+    "$type": "color",
+    "$value": "{Light.ai.default.medium}"
+  },
+  "component.scrollable-tracker.baseline-surface": {
+    "$type": "color",
+    "$value": "{Light.surface.default.default}"
+  },
+  "component.scrollable-tracker.baseline-color": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.900}"
+  },
+  "component.pura-agent.icon-xs-inverse": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.500}"
+  },
+  "component.sheet.radial-gradient": {
+    "$type": "color",
+    "$value": "#ffffff03"
+  },
+  "component.timeline.timeline-line": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.400}"
+  },
+  "component.track.color": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.200}"
+  },
+  "component.uaepassbutton.surface": {
+    "$type": "color",
+    "$value": "{color.primitive.black.1000}"
+  },
+  "component.card.image-blur": {
+    "$type": "color",
+    "$value": "{Light.surface.default.default}"
+  },
+  "Dark.component.badge.surface-default": {
+    "$type": "color",
+    "$value": "{Dark.surface.default.tertiary}"
+  },
+  "Dark.component.badge.surface-strong": {
+    "$type": "color",
+    "$value": "{color.primitive.sage.700}"
+  },
+  "Dark.component.badge.surface-extra-strong": {
+    "$type": "color",
+    "$value": "{color.primitive.sage.700}"
+  },
+  "Dark.component.badge.surface-tint": {
+    "$type": "color",
+    "$value": "{Dark.surface.tint.soft}"
+  },
+  "Dark.component.badge.surface-tint-inverse": {
+    "$type": "color",
+    "$value": "{Dark.surface.tint.inverse-soft}"
+  },
+  "Dark.component.badge.size-xxxs": {
+    "$type": "dimension",
+    "$value": 28
+  },
+  "Dark.component.badge.size-xxs": {
+    "$type": "dimension",
+    "$value": 32
+  },
+  "Dark.component.badge.size-xs": {
+    "$type": "dimension",
+    "$value": 40
+  },
+  "Dark.component.badge.size-sm": {
+    "$type": "dimension",
+    "$value": 48
+  },
+  "Dark.component.badge.size-md": {
+    "$type": "dimension",
+    "$value": 80
+  },
+  "Dark.component.badge.size-lg": {
+    "$type": "dimension",
+    "$value": 88
+  },
+  "Dark.component.badge.size-xl": {
+    "$type": "dimension",
+    "$value": 100
+  },
+  "Dark.component.badge.size-xxl": {
+    "$type": "dimension",
+    "$value": 120
+  },
+  "Dark.component.badge-group.space-between": {
+    "$type": "dimension",
+    "$value": -16
+  },
+  "Dark.component.badge-group.border-weight": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.02}"
+  },
+  "Dark.component.biomarker.main-track": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.700}"
+  },
+  "Dark.component.biomarker.bar": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.400}"
+  },
+  "Dark.component.button.surface-primary-disabled": {
+    "$type": "color",
+    "$value": "{color.primitive.neutral.700}"
+  },
+  "Dark.component.button.surface-secondary-disabled": {
+    "$type": "color",
+    "$value": "{color.primitive.neutral.800}"
+  },
+  "Dark.component.button.surface-ghost-pressed": {
+    "$type": "color",
+    "$value": "{Dark.surface.tint.subtle}"
+  },
+  "Dark.component.button.label-disabled": {
+    "$type": "color",
+    "$value": "{color.primitive.neutral.400}"
+  },
+  "Dark.component.button.height-large": {
+    "$type": "dimension",
+    "$value": 56
+  },
+  "Dark.component.button.height-medium": {
+    "$type": "dimension",
+    "$value": 40
+  },
+  "Dark.component.button.height-small": {
+    "$type": "dimension",
+    "$value": 32
+  },
+  "Dark.component.button.button-max-width": {
+    "$type": "dimension",
+    "$value": 400
+  },
+  "Dark.component.card.padding-none": {
+    "$type": "dimension",
+    "$value": "{spacing.none}"
+  },
+  "Dark.component.button.button-min-width": {
+    "$type": "dimension",
+    "$value": 80
+  },
+  "Dark.component.card.padding-xsmall": {
+    "$type": "dimension",
+    "$value": "{spacing.sm}"
+  },
+  "Dark.component.card.padding-small": {
+    "$type": "dimension",
+    "$value": "{spacing.md}"
+  },
+  "Dark.component.card.padding-smedium": {
+    "$type": "dimension",
+    "$value": "{spacing.base}"
+  },
+  "Dark.component.card.padding-medium": {
+    "$type": "dimension",
+    "$value": "{spacing.lg}"
+  },
+  "Dark.component.carousel-indicator.default-active": {
+    "$type": "color",
+    "$value": "{Dark.content.default.secondary}"
+  },
+  "Dark.component.chart.surface-track-default": {
+    "$type": "color",
+    "$value": "{Dark.surface.default.secondary}"
+  },
+  "Dark.component.chart.surface-track-onsecondary": {
+    "$type": "color",
+    "$value": "{Dark.surface.default.default}"
+  },
+  "Dark.component.chart.surface-track-inverse": {
+    "$type": "color",
+    "$value": "{Dark.surface.tint.inverse-subtle}"
+  },
+  "Dark.component.chart.surface-track-tinted": {
+    "$type": "color",
+    "$value": "{Dark.surface.tint.soft}"
+  },
+  "Dark.component.checkbox.surface-unselected": {
+    "$type": "color",
+    "$value": "{Dark.surface.tint.medium}"
+  },
+  "Dark.component.confetti.neutral": {
+    "$type": "color",
+    "$value": "{Dark.content.default.inverse-secondary}"
+  },
+  "Dark.component.confetti.positive": {
+    "$type": "color",
+    "$value": "{Dark.health.positivegreat.strong}"
+  },
+  "Dark.component.dropdown-chip-.-surface-inverse": {
+    "$type": "color",
+    "$value": "{color.primitive.sage.200}"
+  },
+  "Dark.component.checkbox.surface-selected": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.700}"
+  },
+  "Dark.component.carousel-indicator.default-inactive": {
+    "$type": "color",
+    "$value": "{Dark.border.default.medium}"
+  },
+  "Dark.component.icon.size-xsmall": {
+    "$type": "dimension",
+    "$value": 12
+  },
+  "Dark.component.carousel-indicator.inverse-active": {
+    "$type": "color",
+    "$value": "{Dark.content.default.inverse}"
+  },
+  "Dark.component.carousel-indicator.inverse-inactive": {
+    "$type": "color",
+    "$value": "{Dark.surface.tint.inverse-medium}"
+  },
+  "Dark.component.icon.size-small": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.05}"
+  },
+  "Dark.component.icon.size-medium": {
+    "$type": "dimension",
+    "$value": 20
+  },
+  "Dark.component.icon.size-large": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.06}"
+  },
+  "Dark.component.icon.size-xlarge": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.07}"
+  },
+  "Dark.component.input.text-placeholder": {
+    "$type": "color",
+    "$value": "{Dark.content.default.tertiary}"
+  },
+  "Dark.component.input.text-value": {
+    "$type": "color",
+    "$value": "{Dark.content.default.default}"
+  },
+  "Dark.component.input.label": {
+    "$type": "color",
+    "$value": "{Dark.content.default.secondary}"
+  },
+  "Dark.component.input.hint": {
+    "$type": "color",
+    "$value": "{Dark.content.default.default}"
+  },
+  "Dark.component.input.hint-negative": {
+    "$type": "color",
+    "$value": "{Dark.health.negativecritical.strong}"
+  },
+  "Dark.component.input.secondary-surface": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.800}"
+  },
+  "Dark.component.input.border": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.600}"
+  },
+  "Dark.component.input.negative-icon": {
+    "$type": "color",
+    "$value": "{Dark.health.negativecritical.strong}"
+  },
+  "Dark.component.input.negative-surface": {
+    "$type": "color",
+    "$value": "{Dark.health.negativecritical.soft}"
+  },
+  "Dark.component.input.negative-border": {
+    "$type": "color",
+    "$value": "{Dark.health.negativecritical.medium}"
+  },
+  "Dark.component.pura-agent.icon-xs-default": {
+    "$type": "color",
+    "$value": "{Dark.ai.default.medium}"
+  },
+  "Dark.component.scrollable-tracker.baseline-surface": {
+    "$type": "color",
+    "$value": "{Dark.surface.default.default}"
+  },
+  "Dark.component.scrollable-tracker.baseline-color": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.300}"
+  },
+  "Dark.component.sheet.padding-none": {
+    "$type": "dimension",
+    "$value": "{spacing.none}"
+  },
+  "Dark.component.sheet.padding-small": {
+    "$type": "dimension",
+    "$value": "{spacing.lg}"
+  },
+  "Dark.component.sheet.padding-medium": {
+    "$type": "dimension",
+    "$value": "{spacing.xl}"
+  },
+  "Dark.component.sheet.radius": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.06}"
+  },
+  "Dark.component.pura-agent.icon-xs-inverse": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.500}"
+  },
+  "Dark.component.pura-agent.container-surface": {
+    "$type": "color",
+    "$value": "{Dark.content.default.inverse-secondary}"
+  },
+  "Dark.component.pura-agent.container-border": {
+    "$type": "color",
+    "$value": "{color.primitive.white.1000}"
+  },
+  "Dark.component.sheet.radial-gradient": {
+    "$type": "color",
+    "$value": "#0e1a2b00"
+  },
+  "Dark.component.star-rating-input.surface-unselected": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.700}"
+  },
+  "Dark.component.star-rating-input.surface-selected": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.400}"
+  },
+  "Dark.component.step-indicator.line-active": {
+    "$type": "color",
+    "$value": "{Dark.surface.brand.default}"
+  },
+  "Dark.component.timeline.today-dot-surface": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.400}"
+  },
+  "Dark.component.timeline.today-dot-accent": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.800}"
+  },
+  "Dark.component.timeline.timeline-line": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.400}"
+  },
+  "Dark.component.step-indicator.line-inactive": {
+    "$type": "color",
+    "$value": "{Dark.border.default.subtle}"
+  },
+  "Dark.component.timeline.interval-stroke": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.800}"
+  },
+  "Dark.component.timeline.interval-surface": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.700}"
+  },
+  "Dark.component.card.radius": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.05}"
+  },
+  "Dark.component.track.color": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.700}"
+  },
+  "Dark.component.uaepassbutton.surface": {
+    "$type": "color",
+    "$value": "{color.primitive.black.1000}"
+  },
+  "Dark.component.checkbox.box-surface": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.400}"
+  },
+  "Dark.component.card.image-blur": {
+    "$type": "color",
+    "$value": "{Dark.surface.default.default}"
   }
 }
-
