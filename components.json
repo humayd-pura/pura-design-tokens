@@ -237,7 +237,7 @@
   },
   "component.star-rating-input.surface-selected": {
     "$type": "color",
-    "$value": "{color.primitive.mist.blue.400}"
+    "$value": "{Light.health.positivegreat.medium}"
   },
   "component.step-indicator.line-active": {
     "$type": "color",
@@ -549,7 +549,7 @@
   },
   "Dark.component.input.hint-negative": {
     "$type": "color",
-    "$value": "{Dark.health.negativecritical.strong}"
+    "$value": "{Dark.health.negativecritical.medium}"
   },
   "Dark.component.input.secondary-surface": {
     "$type": "color",
@@ -561,11 +561,11 @@
   },
   "Dark.component.input.negative-icon": {
     "$type": "color",
-    "$value": "{Dark.health.negativecritical.strong}"
+    "$value": "{Dark.health.negativecritical.medium}"
   },
   "Dark.component.input.negative-surface": {
     "$type": "color",
-    "$value": "{Dark.health.negativecritical.soft}"
+    "$value": "{Dark.surface.default.default}"
   },
   "Dark.component.input.negative-border": {
     "$type": "color",
@@ -670,5 +670,21 @@
   "Dark.component.card.image-blur": {
     "$type": "color",
     "$value": "{Dark.surface.default.default}"
+  },
+  "component.carousel-indicator.default-edge": {
+    "$type": "color",
+    "$value": "{Light.surface.tint.muted}"
+  },
+  "component.carousel-indicator.inverse-edge": {
+    "$type": "color",
+    "$value": "{Light.surface.tint.inverse-soft}"
+  },
+  "Dark.component.carousel-indicator.default-edge": {
+    "$type": "color",
+    "$value": "{Dark.surface.tint.muted}"
+  },
+  "Dark.component.carousel-indicator.inverse-edge": {
+    "$type": "color",
+    "$value": "{Dark.surface.tint.inverse-soft}"
   }
 }

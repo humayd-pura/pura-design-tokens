@@ -475,13 +475,13 @@
     "$type": "color",
     "$value": "{color.primitive.white.700}"
   },
-  "Light.content.static.black": {
+  "Light.content.static.default": {
     "$type": "color",
-    "$value": "{color.primitive.black.1000}"
+    "$value": "{color.primitive.mist.blue.900}"
   },
-  "Light.content.static.black-secondary": {
+  "Light.content.static.default-secondary": {
     "$type": "color",
-    "$value": "{color.primitive.black.700}"
+    "$value": "{color.primitive.neutral.700}"
   },
   "Dark.surface.canvas.base": {
     "$type": "color",
@@ -679,13 +679,13 @@
     "$type": "color",
     "$value": "{color.primitive.white.700}"
   },
-  "Dark.content.static.black": {
+  "Dark.content.static.default": {
     "$type": "color",
-    "$value": "{color.primitive.black.1000}"
+    "$value": "{color.primitive.mist.blue.900}"
   },
-  "Dark.content.static.black-secondary": {
+  "Dark.content.static.default-secondary": {
     "$type": "color",
-    "$value": "{color.primitive.black.700}"
+    "$value": "{color.primitive.neutral.700}"
   },
   "Dark.content.brand.pressed": {
     "$type": "color",
