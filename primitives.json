@@ -351,6 +351,10 @@
     "$type": "dimension",
     "$value": 48
   },
+  "unit.primitive.04-5": {
+    "$type": "dimension",
+    "$value": 12
+  },
   "text.primitive.type.ramp.01": {
     "$type": "dimension",
     "$value": 12
