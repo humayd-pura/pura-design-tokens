@@ -207,6 +207,10 @@
     "$type": "color",
     "$value": "{Light.health.positivegreat.strong}"
   },
+  "component.navigation.surface-nav-default": {
+    "$type": "color",
+    "$value": "{Light.surface.default.default}"
+  },
   "component.pura-agent.container-surface": {
     "$type": "color",
     "$value": "{Light.content.default.inverse-secondary}"
@@ -686,6 +690,10 @@
   "Dark.component.input.negative-border": {
     "$type": "color",
     "$value": "{Dark.health.negativecritical.medium}"
+  },
+  "Dark.component.navigation.surface-nav-default": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.900}"
   },
   "Dark.component.pura-agent.icon-xs-default": {
     "$type": "color",
