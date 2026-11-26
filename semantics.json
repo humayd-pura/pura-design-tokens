@@ -387,6 +387,10 @@
     "$type": "dimension",
     "$value": "{unit.primitive.07}"
   },
+  "spacing.sm-md": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.04-5}"
+  },
   "radius.none": {
     "$type": "dimension",
     "$value": "{unit.primitive.00}"
@@ -467,6 +471,14 @@
     "$type": "color",
     "$value": "{color.primitive.rose.clay.300}"
   },
+  "Light.surface.warm.default": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.100}"
+  },
+  "Light.surface.warm.secondary": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.500}"
+  },
   "Light.content.static.white": {
     "$type": "color",
     "$value": "{color.primitive.white.1000}"
@@ -482,6 +494,14 @@
   "Light.content.static.default-secondary": {
     "$type": "color",
     "$value": "{color.primitive.neutral.700}"
+  },
+  "Light.content.warm.default": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.900}"
+  },
+  "Light.content.warm.secondary": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.800}"
   },
   "Dark.surface.canvas.base": {
     "$type": "color",
@@ -643,6 +663,14 @@
     "$type": "color",
     "$value": "{color.primitive.black.500}"
   },
+  "Dark.surface.warm.default": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.900}"
+  },
+  "Dark.surface.warm.secondary": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.800}"
+  },
   "Dark.content.default.default": {
     "$type": "color",
     "$value": "{color.primitive.white.1000}"
@@ -706,6 +734,14 @@
   "Dark.content.brand.inverse-secondary": {
     "$type": "color",
     "$value": "{color.primitive.mist.blue.700}"
+  },
+  "Dark.content.warm.default": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.400}"
+  },
+  "Dark.content.warm.secondary": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.500}"
   },
   "Dark.border.brand.light": {
     "$type": "color",

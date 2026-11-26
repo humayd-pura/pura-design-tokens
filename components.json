@@ -263,6 +263,42 @@
     "$type": "color",
     "$value": "{Light.surface.tint.soft}"
   },
+  "component.chart.arc.category-1": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.300}"
+  },
+  "component.chart.arc.category-2": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.500}"
+  },
+  "component.chart.arc.category-3": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.600}"
+  },
+  "component.chart.arc.category-4": {
+    "$type": "color",
+    "$value": "{color.primitive.rose.clay.700}"
+  },
+  "component.chart.arc.track": {
+    "$type": "color",
+    "$value": "{Light.surface.default.tertiary}"
+  },
+  "component.chart.phase-arc.marker": {
+    "$type": "color",
+    "$value": "{Light.content.static.white}"
+  },
+  "component.chart.phase-arc.progress-end": {
+    "$type": "color",
+    "$value": "{color.primitive.rose.clay.700}"
+  },
+  "component.chart.phase-arc.progress-start": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.600}"
+  },
+  "component.chart.phase-arc.track": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.300}"
+  },
   "component.timeline.today-dot-surface": {
     "$type": "color",
     "$value": "{color.primitive.mist.blue.400}"
@@ -334,6 +370,50 @@
   "component.card.image-blur": {
     "$type": "color",
     "$value": "{Light.surface.default.default}"
+  },
+  "component.calendar.cycle.border-period-predicted": {
+    "$type": "color",
+    "$value": "{color.primitive.rose.clay.800}"
+  },
+  "component.calendar.cycle.marker-ovulation": {
+    "$type": "color",
+    "$value": "{color.primitive.rose.clay.800}"
+  },
+  "component.calendar.cycle.surface-fertile": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.200}"
+  },
+  "component.calendar.cycle.surface-fertile-peak": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.400}"
+  },
+  "component.calendar.cycle.surface-period": {
+    "$type": "color",
+    "$value": "{color.primitive.rose.clay.500}"
+  },
+  "component.calendar.date-strip.border-day": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.500}"
+  },
+  "component.calendar.date-strip.marker-today": {
+    "$type": "color",
+    "$value": "{color.primitive.rose.clay.700}"
+  },
+  "component.calendar.surface-today": {
+    "$type": "color",
+    "$value": "{Light.surface.default.default}"
+  },
+  "component.tracker-card.day-done": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.600}"
+  },
+  "component.tracker-card.day-missed": {
+    "$type": "color",
+    "$value": "{Light.surface.tint.soft}"
+  },
+  "component.tracker-card.day-upcoming-border": {
+    "$type": "color",
+    "$value": "{Light.border.default.medium}"
   },
   "Dark.component.badge.surface-default": {
     "$type": "color",
@@ -479,6 +559,42 @@
     "$type": "color",
     "$value": "{Dark.surface.tint.soft}"
   },
+  "Dark.component.chart.arc.category-1": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.300}"
+  },
+  "Dark.component.chart.arc.category-2": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.500}"
+  },
+  "Dark.component.chart.arc.category-3": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.600}"
+  },
+  "Dark.component.chart.arc.category-4": {
+    "$type": "color",
+    "$value": "{color.primitive.rose.clay.700}"
+  },
+  "Dark.component.chart.arc.track": {
+    "$type": "color",
+    "$value": "{Dark.surface.default.tertiary}"
+  },
+  "Dark.component.chart.phase-arc.marker": {
+    "$type": "color",
+    "$value": "{Dark.content.static.white}"
+  },
+  "Dark.component.chart.phase-arc.progress-end": {
+    "$type": "color",
+    "$value": "{color.primitive.rose.clay.500}"
+  },
+  "Dark.component.chart.phase-arc.progress-start": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.600}"
+  },
+  "Dark.component.chart.phase-arc.track": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.800}"
+  },
   "Dark.component.checkbox.surface-unselected": {
     "$type": "color",
     "$value": "{Dark.surface.tint.medium}"
@@ -605,7 +721,7 @@
   },
   "Dark.component.pura-agent.container-surface": {
     "$type": "color",
-    "$value": "{Dark.content.default.inverse-secondary}"
+    "$value": "{Dark.surface.default.default}"
   },
   "Dark.component.pura-agent.container-border": {
     "$type": "color",
@@ -686,5 +802,49 @@
   "Dark.component.carousel-indicator.inverse-edge": {
     "$type": "color",
     "$value": "{Dark.surface.tint.inverse-soft}"
+  },
+  "Dark.component.calendar.cycle.border-period-predicted": {
+    "$type": "color",
+    "$value": "{color.primitive.rose.clay.500}"
+  },
+  "Dark.component.calendar.cycle.marker-ovulation": {
+    "$type": "color",
+    "$value": "{color.primitive.rose.clay.400}"
+  },
+  "Dark.component.calendar.cycle.surface-fertile": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.700}"
+  },
+  "Dark.component.calendar.cycle.surface-fertile-peak": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.500}"
+  },
+  "Dark.component.calendar.cycle.surface-period": {
+    "$type": "color",
+    "$value": "{color.primitive.rose.clay.700}"
+  },
+  "Dark.component.calendar.date-strip.border-day": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.800}"
+  },
+  "Dark.component.calendar.date-strip.marker-today": {
+    "$type": "color",
+    "$value": "{color.primitive.rose.clay.500}"
+  },
+  "Dark.component.calendar.surface-today": {
+    "$type": "color",
+    "$value": "{Dark.surface.default.default}"
+  },
+  "Dark.component.tracker-card.day-done": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.600}"
+  },
+  "Dark.component.tracker-card.day-missed": {
+    "$type": "color",
+    "$value": "{Dark.surface.tint.inverse-soft}"
+  },
+  "Dark.component.tracker-card.day-upcoming-border": {
+    "$type": "color",
+    "$value": "{Dark.border.default.inverse-medium}"
   }
 }
